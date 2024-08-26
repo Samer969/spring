@@ -38,17 +38,17 @@ h1{
     color:rgb(233, 206, 196);
 }
 .container{
-    width: 90%;
+    width: 100%;
     display: flex;
-    flex-wrap: felx;
+    flex-wrap: wrap;
     margin: 50px auto;
     justify-content: center;
 }
 img{
-    display: block;
+    
     width: 8rem;
     height: 8rem;
-    padding: 5px;
+    padding: 10px;
     border-radius: 100px;
     animation-duration: 3s;
     animation-name: flashing;
@@ -59,7 +59,6 @@ img{
  cursor: pointer;
  transition: 1234ms;
  transform: scale(2.5);
- 
 }
 p{
     color: whitesmoke;
