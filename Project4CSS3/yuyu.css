@@ -1,0 +1,109 @@
+body{
+    background: rgba(0,0,0,0.1)url("images/tobias-greitzke-uAPf0EHAeeE-unsplash.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+}
+h1{
+    color: rgb(109, 170, 17);
+    margin: auto;
+    text-align: center;
+    font-family:cursive;
+    font-size: xxx-large;
+}
+.navbar ul{
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: space-between;
+     box-shadow: 0 0 15px 15px rgba(0, 0, 0, 0.9);
+}
+.navbar li{
+    width: 32.3%;
+    list-style: none;
+    display: inline-block;
+}
+.navbar a{
+    font-weight: bold;
+    font-size: xx-large;
+    text-decoration: none;
+    color: rgba(40, 8, 8, 0.9);
+}
+.navbar :hover{
+    transition: 0.7s;
+    color:rgb(233, 206, 196);
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px auto;
+    justify-content: center;
+}
+img{
+    width: 8rem;
+    height: 8rem;
+    padding: 10px;
+    border-left: #d39135 1px solid;
+    border-right: #d39135 1px solid;
+    border-radius: 100px;
+    animation-duration: 3s;
+    animation-name: flashing;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+.imagebox :hover{
+ cursor: pointer;
+ transition: 1234ms;
+ transform: scale(2.5);
+}
+.mainpage{
+    width: 50%;
+    height: 50px;
+    cursor: pointer;
+}
+.arrow{
+    width: 283px;
+    padding: 10px;
+    translate: -250px 0;
+    border-radius: 16px;
+    box-shadow: 0 0 3px 5px #2d200d ;
+}
+.mainpage:hover > .arrow{
+    cursor: pointer;
+    transition: 1.9s;
+    translate: 5px 0;
+    transform: rotateY(360deg);
+}
+.arrow a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+p{
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: bold;
+}
+#frontimage{
+    width: 11rem;
+    margin: auto;
+    height: 11rem;
+    display: flex;
+    cursor: pointer;
+    border-radius: 150px;
+}
+#foota{
+    margin-top: 50px;
+}
+a{
+    font-size: 26.5px;
+    color: rgb(43, 158, 224);
+}
+a:hover{
+    color:rgba(229, 210, 210, 0.8);
+    transition: 0.7s;
+}
